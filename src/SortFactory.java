@@ -9,6 +9,9 @@ public class SortFactory {
         else if(sortType.equalsIgnoreCase("S")){
             return new SelectionSort();
         }
+        else if(sortType.equalsIgnoreCase("Q")){
+            return new QuickSort();
+        }
         return null;
     }
 }
