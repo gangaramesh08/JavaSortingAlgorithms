@@ -14,3 +14,16 @@ If you take an element, all the elements to its left would be sorted. The positi
 position to place the key element is identified.
 The worst case complexity is O(n^2).
 
+3. Selection Sort
+--------------------
+ Selection sort is a simple algorithm that sorts a given array by repeatedly finding the smallest element amd placing them
+ at the proper location. 
+ The worst case complexity is O(n^2).
+ 
+ 4. Quick Sort
+ ----------------
+ In quick sort algorithm, we choose a pivot element first. The array is sorted in such a way that all the elements to
+ the left of the pivot element would be smaller than it and all the elements to the right of the pivot element would be 
+ greater than it.
+ The two different sublist thus obtained are then sorted again using quick sort method(recursively).
+ The worst case complexity of this algorithm is O(n log n).
