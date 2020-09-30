@@ -12,13 +12,13 @@ Insertion sort is a simple algorithm that sorts a given array by placing the ele
 It is similar to sorting the playing cards.
 If you take an element, all the elements to its left would be sorted. The position of each element is shifted until the 
 position to place the key element is identified.
-The worst case complexity is O(n^2).
+The worst case and average case complexity is O(n^2).
 
 3. Selection Sort
 --------------------
  Selection sort is a simple algorithm that sorts a given array by repeatedly finding the smallest element amd placing them
  at the proper location. 
- The worst case complexity is O(n^2).
+ The worst case complexity and average case complexity is O(n^2).
  
  4. Quick Sort
  ----------------
@@ -26,4 +26,4 @@ The worst case complexity is O(n^2).
  the left of the pivot element would be smaller than it and all the elements to the right of the pivot element would be 
  greater than it.
  The two different sublist thus obtained are then sorted again using quick sort method(recursively).
- The worst case complexity of this algorithm is O(n log n).
+ The worst case complexity of this algorithm is O(n^2). and average case complexity is O(n log n).
