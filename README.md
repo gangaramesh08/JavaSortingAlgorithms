@@ -26,4 +26,11 @@ The worst case and average case complexity is O(n^2).
  the left of the pivot element would be smaller than it and all the elements to the right of the pivot element would be 
  greater than it.
  The two different sublist thus obtained are then sorted again using quick sort method(recursively).
- The worst case complexity of this algorithm is O(n^2). and average case complexity is O(n log n).
+ The worst case complexity of this algorithm is O(n^2). and average case complexity is O(n log n). 
+ 
+ 5. Merge Sort
+ ------------------
+ Merge Sort makes use of divide and conquer algorithm to sort a given array. The algorithm divides the array into halves
+ and further subdivides recursively until no more division can take place. Each divided subarray is then sorted and merged
+ The sorted merge continues until the whole array is sorted.
+ The worst case, average acse and best case complexity is O(N log N).
