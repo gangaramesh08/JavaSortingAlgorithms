@@ -12,6 +12,9 @@ public class SortFactory {
         else if(sortType.equalsIgnoreCase("Q")){
             return new QuickSort();
         }
+        else if(sortType.equalsIgnoreCase("M")){
+            return new MergeSort();
+        }
         return null;
     }
 }

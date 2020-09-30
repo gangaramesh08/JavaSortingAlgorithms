@@ -5,7 +5,8 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        int array[]={4,3,6,2,1,8,1,2,9};
+        //int array[]={4,3,6,2,1,8,1,2,9};
+        int array[]={50,23,9,18,61,32};
         printArray(array);
         System.out.println("Which algorithm do you want to use to sort the array? ");
         System.out.println("1.BubbleSort(B)\n2.InsertionSort(I)\n3. SelectionSort(S)\n4.QuickSort(Q)\n5.MergeSort(M)");
